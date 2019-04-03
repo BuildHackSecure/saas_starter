@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice Overdue</title>
+</head>
+<body style="background-color: #d6d6d6; font-family: Tahoma">
+
+<table width="100%">
+
+    <tr>
+        <td align="center">
+
+
+            <table width="600">
+
+                <tr>
+                    <td align="center"><img src="{{logo.src}}" style="width: {{logo.width}};height:{{logo.height}}"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div style="border-top:2px solid #696969;padding-top:10px;margin-top:10px"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Thank you,</p>
+                        <p>Your invoice for this month for a total of &pound;{{total}} has been paid.</p>
+                        <p>{{card_status}}</p>
+                        <p>{{invoice_status}}</p>
+                        <p>Many Thanks</p>
+                        <p>{{app_name}} Online Team</p>
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </td>
+    </tr>
+
+
+</table>
+
+</body>
+</html>
